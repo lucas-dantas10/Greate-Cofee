@@ -24,6 +24,13 @@ body {
   list-style-type: none;
   color: #FFF;
 }
+.header__links {
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.header__links:hover {
+  color: #8257E5;
+}
 .header__botao {
   margin-right: 150px;
   border: 1px solid #8257E5;
@@ -62,8 +69,20 @@ body {
 .main__titulo-secundario::before {
   content: "<";
 }
+.main__container-imagem {
+  width: 100vw;
+  height: 555px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .main__imagem {
+  width: 1050px;
+  height: 590px;
   margin-bottom: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .color {
@@ -73,7 +92,17 @@ body {
   width: 321px;
   height: 321px;
   top: -63px;
-  left: 1028px;
+  left: 1590px;
+}
+
+.color2 {
+  position: absolute;
+  background-color: #996DFF;
+  filter: blur(200px);
+  width: 321px;
+  height: 321px;
+  top: 590px;
+  left: -29px;
 }
 
 /*# sourceMappingURL=style.css.map */
